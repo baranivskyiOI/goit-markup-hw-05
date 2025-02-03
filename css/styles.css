@@ -484,14 +484,11 @@ transform: translateY(0);
     margin-left: 80px;
 }
 
-.footer-email-area {
-    display: flex;
-    align-items: flex-end;
-    gap: 24px;
-}
+
 
 .footer-form {
-    
+    display: flex;
+    gap: 24px;
 }
 
 .footer-form-text {
@@ -499,8 +496,7 @@ transform: translateY(0);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #fff;
-    margin-bottom: 16px;
+    color: #ffffff;
 }
 
 .footer-input {
@@ -508,35 +504,40 @@ transform: translateY(0);
     border-radius: 4px;
     width: 264px;
     height: 40px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     background-color: transparent;
     padding-left: 16px;
     outline: none;
-    color: #fff;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
 }
 
 .footer-input::placeholder{
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
-    color: #fff;
+    color: #ffffff;
 }
 
 .footer-button {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: center;
     color: #fff;
-    background: #4d5ae5;
+    background: #4D5AE5;
     border: none;
     border-radius: 4px;
     padding: 8px 24px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     cursor: pointer;
 }
@@ -730,12 +731,12 @@ transform: translateY(0);
 }
 
 .modal-checkbox-item{
+    display: inline-flex;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     width: 16px;
     height: 16px;
     margin-right: 8px;
-    display: inline-flex;
     justify-content: center;
     align-items: center;
     fill: transparent;
@@ -753,7 +754,7 @@ transform: translateY(0);
 }
 
 .modal-checkbox:checked + label .modal-checkbox-item-img {
-    fill: #f4f4fd;
+    fill: #F4F4FD;
     
 }
 
