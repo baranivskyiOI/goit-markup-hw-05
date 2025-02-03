@@ -486,7 +486,6 @@ transform: translateY(0);
 
 .footer-email-area {
     display: flex;
-    flex-direction: column;
     align-items: flex-end;
     gap: 24px;
 }
@@ -563,7 +562,6 @@ transform: translateY(0);
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-
 }
 
 .is-open{
@@ -599,7 +597,8 @@ transform: translateY(0);
         border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-button:hover{
+.modal-button:hover,
+.modal-button:focus{
     background-color: #404bbf;
     border-color: #404bbf;
 }
