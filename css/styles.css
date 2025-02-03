@@ -582,7 +582,7 @@ transform: translateY(0);
     border-radius: 4px;
     padding: 72px 24px 24px 24px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: зі значенням 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .modal-button{
@@ -602,9 +602,8 @@ transform: translateY(0);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-button:hover,
-.modal-button:focus{
-    background-color: #404bbf;
+.modal-button:hover, .modal-button:focus {
+    background-color: #404BBF;
     border: none;
 }
 
@@ -613,7 +612,8 @@ transform: translateY(0);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-button:hover .button-img{
+.modal-button:hover .button-img,
+.modal-button:focus .button-img{
     fill: #ffffff;
 }
 
@@ -624,13 +624,12 @@ transform: translateY(0);
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 16px;
 }
 
 .modal-form{
     display: flex;
     flex-direction: column;
-    margin-top: 16px;
-
 }
 
 .form-label{
@@ -643,9 +642,12 @@ transform: translateY(0);
     margin-bottom: 4px;
 }
 
-.input-wrap{
-    position: relative;
+.modal-input-wrap{
     margin-bottom: 8px;
+}
+
+.modal-wrap-container{
+    position: relative;
 }
 
 .modal-input-icon{
