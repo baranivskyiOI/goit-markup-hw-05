@@ -196,7 +196,7 @@ img{
     padding: 120px 0;
 }
 
-.benefits-title{
+.visually-hidden{
     position: absolute;
     width: 1px;
     height: 1px;
@@ -480,6 +480,76 @@ transform: translateY(0);
     background-color: #31d0aa;
 }
 
+.footer-subscribe-wrap {
+    margin-left: 80px;
+}
+
+.footer-email-area {
+    display: flex;
+    align-items: flex-end;
+    gap: 24px;
+}
+
+.footer-form {
+    
+}
+
+.footer-form-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.footer-input {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+    padding-left: 16px;
+    outline: none;
+    color: #fff;
+}
+
+.footer-input::placeholder{
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.footer-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    background: #4d5ae5;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 165px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.footer-button-img{
+    margin-left: 16px;
+    fill: #fff;
+}
+
+.footer-button-img{
+
+}
+
 /* ------- Modal window -------*/
 
 .backdrop{
@@ -663,6 +733,7 @@ transform: translateY(0);
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #4d5ae5;
+    margin-left: 4px;
 }
 
 .modal-submit-button {
