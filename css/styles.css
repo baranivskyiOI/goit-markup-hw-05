@@ -497,6 +497,7 @@ transform: translateY(0);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
+    margin-bottom: 16px;
 }
 
 .footer-input {
@@ -753,9 +754,9 @@ transform: translateY(0);
     border: none;
 }
 
-.modal-checkbox:checked + label .modal-checkbox-item-img {
+.modal-checkbox:checked + label .modal-checkbox-item {
     fill: #F4F4FD;
-    
+
 }
 
 
