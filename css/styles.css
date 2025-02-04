@@ -745,19 +745,10 @@ transform: translateY(0);
     fill: transparent;
 }
 
-.modal-checkbox-item-img{
-    fill: transparent;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .modal-checkbox:checked + label .modal-checkbox-item {
     background-color: #404BBF;
+    fill: #F4F4FD;;
     border: none;
-}
-
-.modal-checkbox:checked + label .modal-checkbox-item-img {
-    fill: #F4F4FD;
-
 }
 
 .modal-checkbox-lable-text {
